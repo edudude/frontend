@@ -15,11 +15,12 @@ import acquisitionsEpicAlwaysAskIfTagged from 'common/modules/experiments/tests/
 import acquisitionsEpicAlwaysAskElection from 'common/modules/experiments/tests/acquisitions-epic-always-ask-election';
 import acquisitionsEpicThankYou from 'common/modules/experiments/tests/acquisitions-epic-thank-you';
 import acquisitionsThisLandSeries from 'common/modules/experiments/tests/acquisitions-this-land-series';
-
+import payInEpic from 'common/modules/experiments/tests/acquisitions-epic-pay-in-epic';
 /**
  * acquisition tests in priority order (highest to lowest)
  */
 const tests = [
+    payInEpic, // FIXME
     alwaysAsk,
     acquisitionsThisLandSeries,
     bundlePriceTest1,
